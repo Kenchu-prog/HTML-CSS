@@ -11,7 +11,7 @@ img {
     border:3px solid;
     border-radius: 8px;
     background-color: honeydew;
-    animation: color 10s infinite;
+    animation: color 20s infinite;
 
 }
 .border-color h2{
@@ -24,7 +24,7 @@ body {
     width: 100%;
     display: flex;
     background-size: cover;
-    animation:welcome 5s infinite;
+    animation:welcome 20s infinite;
   
 }
 @keyframes color {
@@ -43,9 +43,20 @@ body {
 }
 
 @keyframes welcome{
-    0%{ background:green;}
+    /* 0%{ background:green;}
     25%{ background-color:red;}
     50%{ background-color:blue;}
     75%{ background-color:black;}
-    100%{background-color:white;}
+    100%{background-color:white;} */
+    0%{background-color: hotpink;transform: rotateY(120);color: hotpink;}
+    10%{background-color:greenyellow;transform: rotateY(45);color: greenyellow;}
+    20%{background-color:blue;transform: rotateY(45);color: blue;}
+    30%{background-color: rgb(233, 152, 32);transform: rotateY(45);color:orange;}
+    40%{background-color: rgb(100, 185, 235);transform: rotateY(244);color: lightblue;}
+    50%{background-color: rgb(207, 21, 21);transform: rotateY(45);color: red;}
+    60%{background-color: rgb(75, 73, 74);transform: rotateY(32);color: grey;}
+    70%{background-color: rgb(158, 238, 10);transform: rotateY(27);color:lightgreen;}
+    80%{background-color: rgb(206, 51, 23);transform: rotateY(10);color: red;}
+    90%{background-color: rgb(250, 213, 2);transform: rotateY(90);color: yellow;}
+    100%{background-color: rgb(241, 230, 230);transform: rotateY(120);color: black;}
 }
